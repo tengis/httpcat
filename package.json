@@ -1,6 +1,6 @@
 {
   "name": "httpcat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It renders cat 🐈 image that relates with http codes.",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,15 @@
   "license": "ISC",
   "dependencies": {
     "iterm2-image": "^1.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/tengis/httpcat/issues"
+  },
+  "bin" : { 
+    "httpcat" : "./index.js"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/tengis/httpcat.git"
   }
 }
