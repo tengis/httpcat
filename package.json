@@ -1,0 +1,15 @@
+{
+  "name": "httpcat",
+  "version": "1.0.0",
+  "description": "It renders cat 🐈 image that relates with http codes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Tengis Batsaikhan",
+  "license": "ISC",
+  "dependencies": {
+    "iterm2-image": "^1.0.1"
+  }
+}
