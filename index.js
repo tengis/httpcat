@@ -5,6 +5,11 @@ const https = require('https');
 const drawInIterm = require('iterm2-image');
 const code = process.argv[2];
 
+if (!code) {
+  console.log('HTTP code missing. Ex: "httpcat 202"');
+  process.exit();
+}
+
 if (Object.keys(http.STATUS_CODES).indexOf(code) === -1) {
   console.log(`httpcat: ${code}: No such http code exists`);
   process.exit();
