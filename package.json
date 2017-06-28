@@ -1,6 +1,6 @@
 {
   "name": "httpcat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It renders cat 🐈 image that relates with http codes.",
   "main": "index.js",
   "scripts": {
