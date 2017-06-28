@@ -1,6 +1,6 @@
 {
   "name": "httpcat",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It renders cat 🐈 image into iTerm that relates with http codes.",
   "main": "index.js",
   "scripts": {
